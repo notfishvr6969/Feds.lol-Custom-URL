@@ -1,3 +1,8 @@
-# Feds.lol-Custom-URL
-this is feds.lol WITH a Custom URL
-you want to go to line 29-31 edit the links then look for text "Your Name" you want to put your name then look for text "Your Pfp Link" and put your pfp link that you want there there is only "discord", "youtube" and "github" for rn
+# Feds.lol Custom URL Configuration Guide
+
+1. Head to lines 29-31 to edit the links.
+2. Replace the placeholder "Your Name" with your actual name
+3. Insert the link to your desired profile picture where you see "Your Pfp Link."
+4. Choose options "discord," "youtube," or "github".
+
+Check out the example in lines 29-31 with this image: [Image](https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png) and make it yours!

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" theme="White">
+
+<head>
+    <meta charset="utf-8">
+    <title>Your Name</title>
+    <meta property="og:title" content="Your Name">
+    <meta name="description" content="Your Name">
+    <meta property="og:description" content="Your Name">
+    <meta name="twitter:card" content="summary">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2F3136">
+    <link rel="shortcut icon" href="Your Pfp Link" type="image/x-icon">
+    <link rel="preload" href="https://feds.lol/module/newww/css/app.css" as="style">
+    <link rel="stylesheet" href="https://feds.lol/module/newww/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://feds.lol/assets/vendors/animation/animate.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="https://feds.lol/script.js" data-site="IHGLANPG" defer></script>
+    <style>
+        .typewrite > .wrap {
+            border-right: 0.08em solid #fff;
+        }
+    </style>
+</head>
+
+<body class="fedslol">
+    <script>
+        var discordLink = "Your Discord Link";
+        var youtubeLink = "Your Youtube Link";
+        var githubLink = "Your Github Link";
+        function updateLinks() {
+            document.getElementById("discordLink").href = discordLink;
+            document.getElementById("youtubeLink").href = youtubeLink;
+            document.getElementById("githubLink").href = githubLink;
+        }
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = "";
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === "") {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function () {
+            var elements = document.getElementsByClassName("typewrite");
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute("data-type");
+                var period = elements[i].getAttribute("data-period");
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+            updateLinks();
+        };
+    </script>
+    <main style="background-image:linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url('uploads/background/'); background-position: center;background-repeat: no-repeat;background-size: cover;background-attachment: fixed; background-position: center;">
+        <div class="fixed w-full h-full"></div>
+        <div class="biolink" style="height:100%;width:100%;">
+            <div class="relative w-full h-full px-4 py-16 table">
+                <div class="table-cell align-middle text-center">
+                    <div class="bg-main rounded-md shadow-4xl w-full mx-auto card animate-slide-up not-last-child:mb-12 max-w-[1100px] mt-14">
+                        <div class="p-10">
+                            <div class="not-last-child:mb-8">
+                                <div class="-mt-[85px]">
+                                    <img class="w-44 h-44 rounded-full mx-auto shadow-avatar" src="Your Pfp Link" title="Image" alt="Image" draggable="false" />
+                                </div>
+                            </div>
+                            <div class="not-last-child:mb-8">
+                                <div class="flex justify-center items-center space-x-2">
+                                    <h2 class="text-[20px] text-white font-semibold" style="color: #fff; display: inline-block;">Your Name</h2>
+                                </div>
+                                <p class="text-sm">
+                                    Your Link/<em>Your Name</em>
+                                </p>
+                                <p class="text-sm">
+                                    <i class="ri-eye-2-fill"></i> 1
+                                </p>
+                            </div>
+                            <div class="not-last-child:mb-8">
+                                <div class="mx-auto max-w-[750px]">
+                                    <p>
+                                        <pre></pre>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center space-x-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="1w-full mx-auto card animate-slide-up not-last-child:mb-12 max-w-[1100px]">
+                        <div class="!p-0">
+                            <div class="flex flex-wrap justify-between gap-6">
+                                <a id="discordLink" target="_blank" rel="noopener noreferrer nofollow" title="Discord" class="bg-main rounded-xl flex-[100%] sm:flex-[45%] animate-slide-up shadow-4xl p-3 button" style="will-change: opacity, transform">
+                                    <div class="flex items-center justify-between space-x-6">
+                                        <span class="bg-secondary rounded-xl aspect-square h-16 p-3 flex items-center justify-center">
+                                            <img class="drop-shadow-twitter" src="https://feds.lol/module/newww/icons/discord.svg">
+                                        </span>
+                                        <h2 class="w-full text-left text-grey">
+                                            Discord
+                                        </h2>
+                                        <span class="w-20" style="margin-left: 157px;">
+                                            <img src="https://feds.lol/assets/images/link-button-arrow.png" style="width: 14px;" class="link-arrows">
+                                        </span>
+                                    </div>
+                                </a>
+                                <a id="youtubeLink" target="_blank" rel="noopener noreferrer nofollow" title="YouTube" class="bg-main rounded-xl flex-[100%] sm:flex-[45%] animate-slide-up shadow-4xl p-3 button" style="will-change: opacity, transform">
+                                    <div class="flex items-center justify-between space-x-6">
+                                        <span class="bg-secondary rounded-xl aspect-square h-16 p-3 flex items-center justify-center">
+                                            <img class="drop-shadow-youtube" src="https://feds.lol/module/newww/icons/youtube.svg">
+                                        </span>
+                                        <h2 class="w-full text-left text-grey">
+                                            Youtube
+                                        </h2>
+                                        <span class="w-20" style="margin-left: 157px;">
+                                            <img src="https://feds.lol/assets/images/link-button-arrow.png" style="width: 14px;" class="link-arrows">
+                                        </span>
+                                    </div>
+                                </a>
+                                <a id="githubLink" target="_blank" rel="noopener noreferrer nofollow" title="GitHub" class="bg-main rounded-xl flex-[100%] sm:flex-[45%] animate-slide-up shadow-4xl p-3 button" style="will-change: opacity, transform">
+                                    <div class="flex items-center justify-between space-x-6">
+                                        <span class="bg-secondary rounded-xl aspect-square h-16 p-3 flex items-center justify-center">
+                                            <img class="drop-shadow-github" src="https://feds.lol/module/newww/icons/github.svg">
+                                        </span>
+                                        <h2 class="w-full text-left text-grey">
+                                            Github
+                                        </h2>
+                                        <span class="w-20" style="margin-left: 157px;">
+                                            <img src="https://feds.lol/assets/images/link-button-arrow.png" style="width: 14px;" class="link-arrows">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://feds.lol/js/page.js?id=2c4f84bac56c0ce1881f" defer></script>
+    <script src="https://feds.lol/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="dd591c17be1da84f4dc78c40-|49" defer></script>
+    <script>
+        (function () {
+            var js = "window['__CF$cv$params']={r:'8252d078ac578753',t:'MTY5OTgzNDQ2NC41ODgwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";
+            var _0xh = document.createElement('iframe');
+            _0xh.height = 1;
+            _0xh.width = 1;
+            _0xh.style.position = 'absolute';
+            _0xh.style.top = 0;
+            _0xh.style.left = 0;
+            _0xh.style.border = 'none';
+            _0xh.style.visibility = 'hidden';
+            document.body.appendChild(_0xh);
+
+            function handler() {
+                var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
+                if (_0xi) {
+                    var _0xj = _0xi.createElement('script');
+                    _0xj.innerHTML = js;
+                    _0xi.getElementsByTagName('head')[0].appendChild(_0xj);
+                }
+            }
+
+            if (document.readyState !== 'loading') {
+                handler();
+            } else if (window.addEventListener) {
+                document.addEventListener('DOMContentLoaded', handler);
+            } else {
+                var prev = document.onreadystatechange || function () {};
+                document.onreadystatechange = function (e) {
+                    prev(e);
+                    if (document.readyState !== 'loading') {
+                        document.onreadystatechange = prev;
+                        handler();
+                    }
+                };
+            }
+        })();
+    </script>
+</body>
+
+</html>

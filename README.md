@@ -10,7 +10,7 @@
 3. **Add Your Profile Picture:**
    Insert the link to your profile picture where you see "Your Pfp Link.".
 
-4. **Choose Your Platforms:**
+4. **Choose:**
    options for rn "Discord," "YouTube," or "GitHub".
 
 lines 29-31, image: [Image](https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png). 

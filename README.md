@@ -7,4 +7,5 @@
 
 Check out the example in lines 29-31 with this image: [Image](https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png) and make it yours!
 
-https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png
+
+<img src="https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png" /><br>

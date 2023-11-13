@@ -5,10 +5,10 @@
    Head to lines 29-31 in the file to edit your links. Replace the existing placeholders with the actual URLs.
 
 2. **Personalize Your Name:**
-   Replace the placeholder "Your Name" with your real name.
+   Replace the placeholder "Your Name" with your name.
 
 3. **Add Your Profile Picture:**
-   Insert the link to your preferred profile picture where you see "Your Pfp Link.".
+   Insert the link to your profile picture where you see "Your Pfp Link.".
 
 4. **Choose Your Platforms:**
    options for rn "Discord," "YouTube," or "GitHub".

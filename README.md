@@ -13,7 +13,7 @@
 4. **Choose Your Platforms:**
    options for rn "Discord," "YouTube," or "GitHub".
 
-lines 29-31, featuring this image: [Image](https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png). 
+lines 29-31, image: [Image](https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png). 
 
 
 <img src="https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png" /><br>

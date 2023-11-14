@@ -21,10 +21,26 @@ git clone https://github.com/official-notfishvr/Feds.lol-Custom-URL.git
 cd Feds.lol-Custom-URL
 code Feds.lol-Custom-URL-Advanced.html
 ```
-"code Feds.lol-Custom-URL.html" Will Open VS Code
+"code Feds.lol-Custom-URL-Advanced.html" Will Open VS Code
 
 lines 29-31, image: [Image](https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png). 
 
+#  Feds.lol Custom URL beginner
+
+1. **Edit Your Links (Lines 20):**
+   Head to lines 20 in the file to edit your links. Replace the existing placeholders with the actual URLs.
+
+2. **Edit title (Lines 6):**
+   Head to lines 6 in the file to edit the title. Replace the existing placeholders with the actual title you want.
+
+## How To Install
+
+```bash
+git clone https://github.com/official-notfishvr/Feds.lol-Custom-URL.git
+cd Feds.lol-Custom-URL
+code Feds.lol-Custom-URL-beginner.html
+```
+"code Feds.lol-Custom-URL-beginner.html" Will Open VS Code
 
 <img src="https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png" /><br>
 

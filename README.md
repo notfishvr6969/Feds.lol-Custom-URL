@@ -24,6 +24,7 @@ code Feds.lol-Custom-URL-Advanced.html
 "code Feds.lol-Custom-URL-Advanced.html" Will Open VS Code
 
 lines 29-31, image: [Image](https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png). 
+<img src="https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png" /><br>
 
 #  Feds.lol Custom URL beginner
 
@@ -42,7 +43,6 @@ code Feds.lol-Custom-URL-beginner.html
 ```
 "code Feds.lol-Custom-URL-beginner.html" Will Open VS Code
 
-<img src="https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png" /><br>
 
 
 **Note:**

@@ -20,6 +20,7 @@ git clone https://github.com/official-notfishvr/Feds.lol-Custom-URL.git
 cd Feds.lol-Custom-URL
 code Feds.lol-Custom-URL.html
 ```
+"code Feds.lol-Custom-URL.html" Will Open VS Code
 
 lines 29-31, image: [Image](https://media.discordapp.net/attachments/1171360898452041778/1173727993160544256/image.png). 
 

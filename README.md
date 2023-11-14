@@ -1,5 +1,6 @@
 # Feds.lol Custom URL Configuration Guide
 
+#  Feds.lol Custom URL Advanced
 
 1. **Edit Your Links (Lines 29-31):**
    Head to lines 29-31 in the file to edit your links. Replace the existing placeholders with the actual URLs.
